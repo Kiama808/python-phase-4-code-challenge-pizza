@@ -2,7 +2,8 @@ import pytest
 from app import app
 from models import db, Restaurant, Pizza, RestaurantPizza
 from faker import Faker
-
+from app import app
+from flask_sqlalchemy import SQLAlchemy
 
 class TestRestaurantPizza:
     '''Class RestaurantPizza in models.py'''

@@ -1,7 +1,7 @@
 from models import Restaurant, RestaurantPizza, Pizza
 from app import app, db
 from faker import Faker
-
+from flask_sqlalchemy import SQLAlchemy
 
 class TestApp:
     '''Flask application in app.py'''
